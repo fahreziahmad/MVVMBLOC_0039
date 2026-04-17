@@ -27,3 +27,18 @@ class HomePage extends StatelessWidget {
                 context.read<UserBloc>().add(EmailChanged(value));
               },
             ),
+            const SizedBox(height: 20),
+            BlocBuilder<UserBloc, UserState>(
+              builder: (context, state) {
+                return Text(
+                  'Halo, ${state.nama}..., is ${state.email} your electronic mail ?',
+                  style: const TextStyle(fontSize: 20),
+                );
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
