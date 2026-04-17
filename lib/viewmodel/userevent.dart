@@ -6,3 +6,8 @@ class NamaChanged extends UserEvent {
   NamaChanged(this.nama);
 }
 
+class EmailChanged extends UserEvent {
+  final String email;
+
+  EmailChanged(this.email);
+}
