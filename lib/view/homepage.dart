@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mvvm_bloc_0021/viewmodel/userbloc.dart';
-import 'package:mvvm_bloc_0021/viewmodel/userevent.dart';
-import 'package:mvvm_bloc_0021/viewmodel/userstate.dart';
+import 'package:mvvmbloc_0039/viewmodel/userbloc.dart';
+import 'package:mvvmbloc_0039/viewmodel/userevent.dart';
+import 'package:mvvmbloc_0039/viewmodel/userstate.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
